@@ -1,0 +1,36 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "title",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "publisher",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 4,
+            "fieldName": "publicationDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldId": 5,
+            "fieldName": "price",
+            "fieldType": "BigDecimal"
+        }
+    ],
+    "dto": "no",
+    "service": "no",
+    "pagination": "infinite-scroll"
+}
