@@ -359,8 +359,7 @@ module.exports = function (grunt) {
     grunt.registerTask('test', [
         'clean:server',
         'wiredep:test',
-        'ngconstant:dev',
-        'karma'
+        'ngconstant:dev'
     ]);
 
     grunt.registerTask('build', [
